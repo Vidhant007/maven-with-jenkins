@@ -10,9 +10,15 @@ public class MyClass {
 
 	}
 	
+	public void f3() {
+		System.out.println("New Code build is generated through Poll SCM source code trigger");
+	}
+	
 	public static void main(String args[]) {
 		MyClass obj = new MyClass();
 		obj.show();
+		obj.display();
+		obj.f3();
 	}
 
 }
